@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2018 Perinote LLC -->
+
+<resources>
+  <!-- palette -->
+  <color name="pn_black">#FF000000</color>
+  <color name="pn_white">#FFFFFFFF</color>
+
+  <!-- window, titlebar -->
+  <color name="window_title_shadow">#26005898</color>
+  <color name="window_title_text_color">#ff0070a8</color>
+  <color name="splash_background">#ff0078bb</color>
+  <color name="window_disabled_overlay">#80FFFFFF</color> <!-- 50% white -->
+
+  <!-- dashboard -->
+  <color name="dashboard_background">#ff0078bb</color>
+  <color name="dash_panel_title">#FF0294DD</color>
+  <color name="dash_panel_selection_border">#FF00d0ff</color>
+
+  <!-- items -->
+  <color name="item_list_divider_light">#ffccd9e2</color>
+  <color name="item_list_divider_dark">#ff191b1c</color>
+  <color name="item_list_divider_event">#33000000</color> <!-- 20% -->
+  <color name="item_dimmed">#fff5f8fa</color>
+  <color name="item_child_count_oval">#ff3ba0f3</color>
+  <color name="child_highlight_background">#fffdd854</color> <!-- for broken items -->
+  <color name="broken_image_background">#FFD6E3F2</color>
+
+  <!-- fonts -->
+  <color name="font_white">#FFFFFFFF</color>
+  <color name="font_grey_light">#FFA1C1D7</color>
+  <color name="font_grey">#FF758C9C</color>
+  <color name="font_black">#FF000000</color>
+  <color name="font_blue">#FF0294DD</color>
+
+  <!-- calendar -->
+  <color name="day_bar_selection">#fff5f8fa</color>
+  <color name="calendar_day_header_background">@color/pn_white</color>
+
+  <!-- task priority default colors -->
+  <color name="task_priority_high">#ffe94a41</color>
+  <color name="task_priority_medium">#ffff992f</color>
+  <color name="task_priority_low">#fffdd854</color>
+
+  <!-- drag-drop flash bar -->
+  <color name="flash_bar_text_bright">#fffdd854</color>
+  <color name="flash_bar_background">#FF303336</color>
+
+  <!-- move-to action bar -->
+  <color name="move_to_bar_background">#ff0294dd</color>
+  <color name="move_to_message_background">#ff0078bb</color>
+
+  <!-- popups -->
+  <color name="popup_exterior_shading">#80000000</color> <!-- 50% black -->
+
+  <!-- full screen modal popup -->
+  <color name="popup_full_screen_background">#e6191d20</color>
+
+  <!-- open windows popup -->
+  <color name="open_windows_new_cell_background">#ff0294dd</color>
+
+  <!-- help popup -->
+  <color name="general_help_background">#FF464441</color>
+
+  <!-- time editor -->
+  <color name="time_editor_band_border">#FFD6E3F2</color>
+
+  <!-- page indicator -->
+  <color name="page_indicator_line">#FFB3B3B3</color>
+
+  <!-- testing -->
+  <color name="test_red">#ffff0000</color>
+  <color name="test_yellow">#ffffff00</color>
+  <color name="test_green">#ff00ff00</color>
+
+
+
+  <!-- NOT ACTIVE -->
+
+  <!-- drag-drop targets -->
+  <color name="drop_target_highlight">#FFd8ff3a</color>
+
+  <!-- tutor alerts -->
+  <color name="tutor_background">#FFD6E3F2</color>
+  <color name="tutor_message">@color/pn_black</color>
+  <color name="tutor_button_area_background">#FF094C7E</color>
+  <color name="tutor_button_text">@color/pn_white</color>
+  <color name="tutor_shadow">#80C0C0C0</color>
+
+</resources>

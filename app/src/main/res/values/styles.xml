@@ -1,0 +1,52 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light">
+    <!-- Customize your theme here. -->
+  </style>
+
+  <style name="TextAppearanceSmall">
+    <item name="android:textSize">@dimen/text_size_small</item>
+    <item name="android:lineSpacingExtra">@dimen/text_spacing_small</item>
+    <item name="android:textColor">@color/font_black</item>
+  </style>
+
+  <style name="TextAppearanceMedium">
+    <item name="android:textSize">@dimen/text_size_medium</item>
+    <item name="android:lineSpacingExtra">@dimen/text_spacing_medium</item>
+    <item name="android:textColor">@color/font_black</item>
+  </style>
+
+  <style name="TextAppearanceLarge">
+    <item name="android:textSize">@dimen/text_size_large</item>
+    <item name="android:lineSpacingExtra">@dimen/text_spacing_large</item>
+    <item name="android:textColor">@color/font_black</item>
+  </style>
+
+
+  <style name="TextAppearanceSmall.Dim" parent="TextAppearanceSmall">
+    <item name="android:textColor">@color/font_grey</item>
+  </style>
+
+  <style name="TextAppearanceMedium.Dim" parent="TextAppearanceMedium">
+    <item name="android:textColor">@color/font_grey</item>
+  </style>
+
+  <style name="TextAppearanceLarge.Dim" parent="TextAppearanceLarge">
+    <item name="android:textColor">@color/font_grey</item>
+  </style>
+
+  <!-- buttons -->
+
+  <style name="button_style" parent="android:Widget.Button">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:minHeight">@dimen/button_min_width</item>
+    <item name="android:minWidth">@dimen/button_min_height</item>
+    <item name="android:background">@null</item>
+    <item name="android:textAppearance">@style/TextAppearanceSmall</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textColor">@color/font_blue</item>
+  </style>
+
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  package="com.perinote.perinote_call_log"
+  android:sharedUserId="com.perinote.family"
+  android:versionCode="6"
+  android:versionName="1.0"
+  >
+
+  <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+  <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
+
+  <application
+    tools:ignore="GoogleAppIndexingWarning"
+    android:allowBackup="false"
+    android:icon="@mipmap/launcher_blue"
+    android:label="@string/app_name"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+
+    <activity android:name="com.perinote.perinote_call_log.PerinoteCallLog">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+
+    <provider
+      android:name="com.perinote.perinote_call_log.CallsProvider"
+      android:authorities="com.perinote.perinote_calls"
+      android:label="Perinote Calls Provider"
+      android:enabled="true"
+      android:exported="false" >
+      <intent-filter>
+        <action android:name="com.perinote.query"/>
+      </intent-filter>
+    </provider>
+
+  </application>
+
+</manifest>

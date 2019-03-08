@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!-- text heights -->
+  <dimen name="text_size_large">16sp</dimen>
+  <dimen name="text_size_medium">14sp</dimen>
+  <dimen name="text_size_small">12sp</dimen>
+  <dimen name="text_size_child_count">11sp</dimen> <!-- for folder child-counts -->
+  <dimen name="text_size_event_day">11sp</dimen>
+
+  <!-- text "lineSpacingExtra" -->
+  <dimen name="text_spacing_small">4dp</dimen> <!-- hack: also change event_agenda_item -->
+  <dimen name="text_spacing_medium">4dp</dimen>
+  <dimen name="text_spacing_large">4dp</dimen>
+
+  <!-- buttons -->
+  <dimen name="button_min_width">48dp</dimen>
+  <dimen name="button_min_height">48dp</dimen>
+
+  <!-- dialer -->
+  <dimen name="dialer_cell_w">100dp</dimen>
+  <dimen name="dialer_cell_h">80dp</dimen>
+  <dimen name="dialer_text_size">30dp</dimen>
+
+  <!-- items -->
+  <dimen name="item_contact_mask_diameter">30dp</dimen>
+
+</resources>
