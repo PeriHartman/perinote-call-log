@@ -10,4 +10,10 @@ The companion app is completely safe. We have provided the source code in this r
 Neither Perinote Calls nor Perinote Organizer sends any of your call information to third parties nor to Perinote LLC or its affiliates. This is explained in detail in our incredibly private privacy policy.
     http://perinote.com/privacy-policy.html
 
-Perinote Calls is protected by the ______. See the _____ file in this repository.
+License
+=======
+Copyright 2017 Perinote LLC
+
+Perinote Calls is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. Perinote Calls is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+A copy of the GNU General Public License is included with Perinote Calls as LICENSE.
